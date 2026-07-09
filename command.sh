@@ -3,11 +3,12 @@ zip -r tenanttrails.zip tenanttrails/chatlog.txt tenanttrails/package.json tenan
 zip -r tenanttrails-api.zip tenanttrails-api -x "tenanttrails-api/node_modules/*" "tenanttrails-api/.env"
 
 # Combined submission zip (run from the parent dir, so paths are tenanttrails/...)
-zip -r tenanttrails.zip \
-  tenanttrails/frontend \
-  tenanttrails/backend \
-  tenanttrails/demo \
-  tenanttrails/README.md \
-  tenanttrails/TenantTrails.postman_collection.json \
-  tenanttrails/chatlog \
-  -x "*/node_modules/*" "*/.env" "*/dist/*" "*/.vercel/*"
+  zip -r tenanttrails.zip \
+    tenanttrails/.github \
+    tenanttrails/frontend \
+    tenanttrails/backend \
+    tenanttrails/demo \
+    tenanttrails/README.md \
+    tenanttrails/TenantTrails.postman_collection.json \
+    tenanttrails/chatlog \
+    -x "*/node_modules/*" "*/.env" "*/dist/*" "*/.vercel/*"
