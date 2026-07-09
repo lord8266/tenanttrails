@@ -1,0 +1,66 @@
+[{
+  "_id": 2,
+  "name": "Le Marchant Towers",
+  "neighbourhood": "West End",
+  "landlord": "Killam Properties",
+  "reviews": [
+    {
+      "userId": 2,
+      "rating": 4,
+      "body": "Responsive, though parking is a wait."
+    },
+    {
+      "userId": 1,
+      "rating": 4,
+      "body": "Great location; aging elevators."
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "body": "Did the parking wait ever improve?",
+      "created": "2026-04-05"
+    }
+  ],
+  "verified": true
+},
+{
+  "_id": 3,
+  "name": "Fenwick Tower",
+  "neighbourhood": "Downtown",
+  "landlord": "Templeton Properties",
+  "reviews": [
+    {
+      "userId": 1,
+      "rating": 4,
+      "body": "Incredible 28th-floor view; elevators break down often."
+    }
+  ],
+  "comments": [
+    {
+      "userId": 2,
+      "body": "The views really are worth it.",
+      "created": "2026-04-14"
+    }
+  ]
+},
+{
+  "_id": 4,
+  "name": "Park Victoria",
+  "neighbourhood": "South End",
+  "landlord": "Southwest Properties",
+  "reviews": [
+    {
+      "userId": 2,
+      "rating": 5,
+      "body": "Best rental experience in Halifax. Maintenance is fast."
+    }
+  ],
+  "comments": [
+    {
+      "userId": 1,
+      "body": "Agreed, maintenance here is fast.",
+      "created": "2026-04-24"
+    }
+  ]
+}]

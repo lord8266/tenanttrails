@@ -1,0 +1,49 @@
+.ai-summary {
+  border: 1.5px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  background: var(--blue-light);
+  margin-bottom: 1.5rem;
+}
+
+.ai-summary-header {
+  margin-bottom: 0.75rem;
+}
+
+.ai-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--blue);
+  letter-spacing: 0.05em;
+}
+
+.ai-summary-text {
+  font-size: 0.875rem;
+  color: var(--text);
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.key-issues-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.ai-issue-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.ai-issue-tag {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--blue);
+  border: 1px solid #bfdbfe;
+}

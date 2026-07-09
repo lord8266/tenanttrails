@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.local
+pages/
+*.zip
+data*.txt
+data*md
+tenanttrails-api/node_modules/
+tenanttrails-api/.env
+chatlog
+lab4/chatlog.jsonl

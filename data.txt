@@ -1,0 +1,37 @@
+src/
+├── components/ ← reusable UI
+│ ├── ProtectedRoute.jsx
+│ ├── StarRating.jsx
+│ ├── ReviewCard.jsx
+│ ├── AISummary.jsx
+│ └── ReviewDialog.jsx
+├── pages/ ← full screens
+│ ├── Landing.jsx
+│ ├── Login.jsx
+│ ├── Signup.jsx
+│ ├── Dashboard.jsx
+│ ├── ApartmentDetail.jsx
+│ └── Profile.jsx
+├── __tests__/ ← test files
+│ ├── validate.test.js
+│ └── ReviewCard.test.jsx
+
+01 Apartment Detail page
+Navigate to /apartment/:id showing apartment info, AI summary, and reviews.
+The ai summary can be just placeholder text as in the page23 of the lab3 slides
+
+02 Submit Review dialog
+Modal with star rating input, text area, and submit button.
+It only needs to maintained in the frontend temporarlily, if page reloads its gone and that is okay.
+Myabe start from the array as state with default reviews, then add delete reviews
+
+03 User Profile page
+Logged-in user's reviews with delete. Accessible from the navbar.
+Again the same thing, it can start with a default arrya of values (doesnt have to contain what was added in the submit review get it its just default)
+
+
+04 Tests
+At least two: one for validation logic, one for a component.
+Im not sure how tests work but create two tests 
+
+

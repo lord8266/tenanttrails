@@ -1,0 +1,14 @@
+[{
+  "_id": 1,
+  "name": "Alex Mitchell",
+  "email": "alex@dal.ca",
+  "password": "password123",
+  "initials": "AM"
+},
+{
+  "_id": 2,
+  "name": "James Chen",
+  "email": "james@example.com",
+  "password": "pass",
+  "initials": "JC"
+}]
