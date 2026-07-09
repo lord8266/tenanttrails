@@ -40,5 +40,5 @@ jobs:
         with:
           node-version: 24.11.1
       - run: npm ci
-      - run: mysql -h 127.0.0.1 -u root -ptestpassword tenanttrails < schema.sql
+      - run: mysql -h 127.0.0.1 -u root -ptestpassword tenanttrails < docker-schema.sql
       - run: npm test
