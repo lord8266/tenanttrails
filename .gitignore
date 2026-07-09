@@ -11,3 +11,4 @@ tenanttrails-api/node_modules/
 tenanttrails-api/.env
 chatlog
 lab4/chatlog.jsonl
+.env2
