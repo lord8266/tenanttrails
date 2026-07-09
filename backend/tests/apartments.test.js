@@ -84,7 +84,7 @@ describe("TenantTrails API", () => {
     reviewId = res.body.id;
   });
 
-  it("upload", async () => {
+  it.skipIf(!process.env.CLOUDINARY_CLOUD_NAME)("upload", async () => {
     const res = await request(app)
       .post("/api/upload")
       .set("Authorization", `Bearer ${token}`)
